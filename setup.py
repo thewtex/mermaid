@@ -20,6 +20,8 @@ EMAIL = 'mn@cs.unc.edu'
 AUTHOR = 'Marc Niethammer'
 REQUIRES_PYTHON = '>=3.7.0'
 VERSION = get_git_version()
+# get_git_version is not returning a valid package version
+VERSION = '0.2.4'
 
 # What packages are required for this module to be executed?
 REQUIRED = [
